@@ -61,7 +61,7 @@
         }
     },
     "require": {
-        "composer/installers": "^1.0.20",
+        "composer/installers": "^2.0.0",
         "drupal/file_browser": "dev-1.x",
         "drupal/entity_embed": "dev-1.x",
         "drupal/entity_browser": "dev-1.x",
