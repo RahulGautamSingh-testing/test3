@@ -18,6 +18,6 @@
   "homepage": "https://github.com/monatheoctocat/my_package",
   "dependencies": {
     "jest": "^1.0.0",
-    "prettier": "~2.2.0"
+    "prettier": "~2.6.0"
   }
 }
