@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/monatheoctocat/my_package",
   "dependencies": {
-    "my_dep": "^1.0.0",
-    "another_dep": "~2.2.0"
+    "jest": "^1.0.0",
+    "prettier": "~2.2.0"
   }
 }
