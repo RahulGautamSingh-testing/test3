@@ -1,3 +1,13 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "helm-requirements": {
+      "enabled": true,
+      "fileMatch": [
+        "\\Chart.yaml|requirements.yaml$"
+      ],
+      "aliases": {
+      "hmctspublic": "https://hmctspublic.azurecr.io/helm/v1/repo/",
+      "hmctsprivate": "https://hmctsprivate.azurecr.io/helm/v1/repo/"
+    },
+    },
 }
