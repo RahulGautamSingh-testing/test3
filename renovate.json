@@ -4,7 +4,7 @@
     "config:base"
   ],
   "helmv3": {
-    "aliases": {
+    "registryAliases": {
       "jetstack": "https://charts.jetstack.io"
     }
   }
