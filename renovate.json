@@ -1,7 +1,3 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "aliases": {
-      "hmctspublic": "https://hmctspublic.azurecr.io/helm/v1/repo/",
-      "hmctsprivate": "https://hmctsprivate.azurecr.io/helm/v1/repo/"
-    }
 }
