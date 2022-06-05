@@ -1,11 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
-  "helmv3": {
-    "aliases": {
-      "jetstack": "https://charts.jetstack.io"
-    }
+  "extends": ["config:base"],
+  "aliases": {
+    "sample": "https://charts.jetstack.io"
   }
 }
