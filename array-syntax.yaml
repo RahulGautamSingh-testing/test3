@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-      - image: "quay.io/external_storage/local-volume-provisioner:v2.1.0"
+      - image: "quay.io/external_storage/local-volume-provisioner:v2.4.0"
         name: provisioner
