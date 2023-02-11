@@ -2,5 +2,82 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "reviewers": [
+    "@redacted"
+  ],
+  "gitAuthor": "Renovate Bot <redacted>",
+  "ignorePaths": [
+    ".devcontainer/docker-compose.yml"
+  ],
+  "dotnet": {
+    "packageRules": [
+      {
+        "matchDatasources": [
+          "nuget"
+        ],
+        "registryUrls": [
+          "https://api.nuget.org/v3/index.json",
+          "https://gitlab.com/api/v4/groups/redacted/-/packages/nuget/index.json"
+        ]
+      },
+      {
+        "matchPackagePrefixes": [
+          "Studyo"
+        ],
+        "groupName": "studyo"
+      },
+      {
+        "matchPackagePrefixes": [
+          "Microsoft"
+        ],
+        "groupName": "microsoft"
+      },
+      {
+        "matchPackagePrefixes": [
+          "Hangfire"
+        ],
+        "groupName": "hangfire"
+      },
+      {
+        "matchPackagePrefixes": [
+          "Serilog"
+        ],
+        "groupName": "serilog"
+      },
+      {
+        "matchPackagePrefixes": [
+          "prometheus-net"
+        ],
+        "groupName": "prometheus"
+      },
+      {
+        "matchPackagePatterns": [
+          "Test",
+          "test",
+          "xunit",
+          "Moq",
+          "coverlet",
+          "codeclimate",
+          "jetbrains",
+          "dotnet-reportgenerator"
+        ],
+        "groupName": "tests"
+      }
+    ]
+  },
+  "docker": {
+    "versioning": "docker",
+    "packageRules": [
+      {
+        "matchPackagePrefixes": [
+          "mcr.microsoft.com/dotnet"
+        ],
+        "groupName": "dotnet-image"
+      }
+    ]
+  }
 }
