@@ -1,10 +1,5 @@
 {
    "dependencies": {
-    "@testing-library/react": "^12.1.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
-    "@types/react": "^17.0.34",
-    "@types/react-dom": "^17.0.11"
+      "xmldoc": "1.1.0"
   }
 }
